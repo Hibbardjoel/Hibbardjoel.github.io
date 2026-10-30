@@ -19,6 +19,7 @@ What I do now:
 • Design secure data architecture. Multi-tenant role-based access (global, regional, country, scoped), least-privilege database roles, SSO and restricted-access controls for government accounts.
 • Engineer the hands-on pieces. Custom React components, SharePoint-to-S3/R2-to-PostgreSQL document pipelines with Microsoft Graph delta sync and AI-enriched metadata, and staging-to-production data promotion.
 • Drive adoption. Guides, video training and release notes ship with every release, because a platform nobody uses has failed.
+• Build my own product. I founded Inpsyght, a behavioral-health platform that connects client self-reflection with provider care. I designed its clinical model, privacy and consent framework, and full Supabase/PostgreSQL backend.
 
 My graduate work in clinical psychology shapes how I design for behavior, communicate with executives and bring skeptical teams along.
 
@@ -41,6 +42,23 @@ I lead the design and delivery of internal operations platforms for account and 
 • Produced user guides, video walkthroughs and release notes to drive adoption.
 
 **Skills to attach:** PostgreSQL · React.js · Data Architecture · Role-Based Access Control · Digital Transformation · Change Management
+
+## New experience entry: Inpsyght
+
+**Title:** Founder & Product Architect
+**Company:** Inpsyght (self-employed)
+**Dates:** Mar 2026 – Present
+
+**Description:**
+A behavioral-health platform that connects client self-reflection with provider care.
+• Built a two-sided product. Clients capture emotions, body sensations and mindfulness practice. Providers get summaries, emotion timelines, standardized assessments and intervention-efficacy tracking.
+• Architected the Supabase/PostgreSQL backend: ~50 tables with row-level security on every one and 120+ versioned migrations.
+• Engineered privacy from the ground up: versioned consent, minimum-age rules for 113 jurisdictions, guardian safeguards, de-identified research data and automated account purge.
+• Shipped Stripe subscription billing on TypeScript edge functions.
+
+**Skills to attach:** Product Strategy · Supabase · Data Privacy · Behavioral Health · TypeScript
+
+(Hold off on this entry if you'd rather keep Inpsyght quiet until launch, or until you've checked BCD's outside-activity policy.)
 
 ## Other experience entries
 

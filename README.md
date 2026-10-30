@@ -31,7 +31,7 @@ After editing `data/master.json`, run `python3 build.py` so the inline fallback 
 
 Use the **tailor-resume** skill in Claude and paste the JD. It runs `tools/score_jd.py`, rewrites a variant without inventing anything, and writes `tailored/<slug>.json`. It also gives you ATS text and a gap report.
 
-The "Save as PDF" button prints a two-page version that leaves out the skill-bridge and capability sections.
+The "Save as PDF" button prints a two-page version. It leaves out the skill-bridge, capability and earlier-career sections and shows only the first 4 bullets per role, so put the strongest bullets first in each variant.
 
 ## Privacy note
 

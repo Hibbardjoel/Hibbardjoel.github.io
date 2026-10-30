@@ -7,19 +7,19 @@
     "generated": "2026-10-30",
     "source_jd": "Sample JD: behavioral health network, internal tools modernization",
     "gaps": [
-      "People management of a named team size: confirm and add headcount",
-      "HIPAA: no direct evidence. Address in the cover letter (clinical background, DoD compliance programs)"
+      "People management: confirm team size led and add headcount",
+      "HIPAA: no formal compliance claim. Point to Inpsyght's consent, de-identification and row-level security in the cover letter"
     ]
   },
   "person": {
     "name": "Joel Hibbard",
-    "headline": "Enterprise applications leader who modernizes legacy SharePoint and Power Platform tools into secure, adopted data platforms",
+    "headline": "Enterprise applications leader and behavioral-health platform founder who turns legacy tools into secure, adopted data platforms",
     "location": "West Palm Beach, FL",
     "email": "hibbardjoel@gmail.com",
     "linkedin": "https://www.linkedin.com/in/joelhibbard",
     "github": "https://github.com/Hibbardjoel"
   },
-  "summary": "Technology leader with a clinical foundation: M.A. in clinical psychology, years in the operating room and in medical devices, and seven years building enterprise internal tools. I led the move of a 48-screen Power Apps / SharePoint platform onto ToolJet and AWS PostgreSQL. I designed the role-based security model myself and planned the cutover and adoption program. I work comfortably with C-suite and clinical operations leaders, and I build for how people actually behave, not how a process diagram says they should.",
+  "summary": "Technology leader with a clinical foundation: an M.A. in clinical psychology, years in the operating room and in medical devices, and the founder of a behavioral-health platform built for clients and providers. At BCD Travel I led the move of a 48-screen Power Apps / SharePoint platform onto ToolJet and AWS PostgreSQL, including the role-based security model, the cutover and the adoption program. I work comfortably with C-suite and clinical operations leaders, and I build for how people actually behave, not how a process diagram says they should.",
   "value_props": [
     {
       "id": "vp-human",
@@ -35,14 +35,17 @@
     },
     {
       "id": "vp-secure",
-      "title": "Secure by design",
-      "text": "Built multi-tenant role-based access (Global / Regional / Country / Scoped) across a three-tier account hierarchy, with least-privilege database roles, SSO and a restricted-access fence for government accounts.",
+      "title": "Secure and privacy-first by design",
+      "text": "Multi-tenant role-based access for a global enterprise platform, and for my own health platform: row-level security on every table, versioned consent, de-identified research data and automated account purge.",
       "tags": [
         "security",
         "RBAC",
         "governance",
         "compliance",
-        "data architecture"
+        "data architecture",
+        "privacy",
+        "consent management",
+        "healthcare data"
       ]
     },
     {
@@ -60,6 +63,7 @@
   "competencies": {
     "leadership": [
       "Executive stakeholder advisory",
+      "Product founder: zero-to-one strategy",
       "Program & portfolio management",
       "Digital transformation & change management",
       "Governance, standards & compliance",
@@ -68,9 +72,11 @@
       "Team training & capability building"
     ],
     "technical": [
-      "Data architecture & PostgreSQL (AWS)",
+      "Data architecture & PostgreSQL (AWS, Supabase)",
       "Role-based access control / multi-tenant security",
+      "Privacy engineering: consent, de-identification, retention",
       "React (JSX) custom components",
+      "TypeScript / Deno serverless functions, Stripe billing",
       "Low-code platforms: ToolJet, Power Apps",
       "SharePoint, Microsoft Graph API, Office 365",
       "ETL & document pipelines (PowerShell, S3/R2)",
@@ -81,6 +87,7 @@
     ],
     "human": [
       "Behavioral insight (clinical psychology)",
+      "Clinical model design (emotion, motivation, somatic)",
       "Instructional systems design",
       "User research & process mapping",
       "Clear technical communication",
@@ -99,7 +106,13 @@
       "id": "sb-3",
       "soft": "Behavioral insight",
       "hard": "UX & component engineering",
-      "evidence": "11 custom React modules designed around how operations staff actually look up policy, payment and traveler data."
+      "evidence": "Inpsyght's emotion and body-mapping model is built on clinical theory. The BCD React modules follow how operations staff actually look up policy, payment and traveler data."
+    },
+    {
+      "id": "sb-6",
+      "soft": "Ethical judgment",
+      "hard": "Privacy engineering & consent",
+      "evidence": "Versioned consent, guardian safeguards for minors, de-identified research data and account purge, all built into the Inpsyght platform."
     },
     {
       "id": "sb-2",
@@ -112,15 +125,77 @@
       "soft": "Teaching & enablement",
       "hard": "Documentation & release management",
       "evidence": "User guides, GIF/video walkthroughs and release notes published alongside each release."
-    },
-    {
-      "id": "sb-5",
-      "soft": "Composure under pressure",
-      "hard": "Incident & operational readiness",
-      "evidence": "FMF Corpsman, surgical first assistant and ICS-certified. That experience carries over to production incidents and go-lives."
     }
   ],
   "experience": [
+    {
+      "id": "inpsyght",
+      "company": "Inpsyght",
+      "title": "Founder & Product Architect",
+      "location": "Independent venture",
+      "start": "2026-03",
+      "end": "Present",
+      "context": "A behavioral-health platform that connects client self-reflection with provider care. I own the product vision, the clinical model and the full backend.",
+      "bullets": [
+        {
+          "id": "inp-1",
+          "text": "Founded and am building a two-sided behavioral-health product. Clients capture emotions, body sensations and mindfulness practice. Providers on a subscription portal get client summaries, emotion timelines, standardized assessments such as the PHQ-9 and intervention-efficacy tracking.",
+          "tags": [
+            "entrepreneurship",
+            "product strategy",
+            "healthcare",
+            "mental health",
+            "behavioral health",
+            "SaaS",
+            "product management",
+            "leadership"
+          ],
+          "weight": 10
+        },
+        {
+          "id": "inp-3",
+          "text": "Engineered privacy and consent from the ground up: versioned legal documents with re-consent, a consent audit history, minimum-age rules for 113 jurisdictions, guardian safeguards for minors, provider license verification and automated account purge.",
+          "tags": [
+            "privacy",
+            "compliance",
+            "governance",
+            "consent management",
+            "healthcare data",
+            "security",
+            "risk management"
+          ],
+          "weight": 9
+        },
+        {
+          "id": "inp-2",
+          "text": "Architected the Supabase / PostgreSQL backend: ~50 tables with row-level security on every one, 120+ versioned migrations, and server-side functions powering client dashboards, emotion-vector analytics, somatic heatmaps and provider reporting.",
+          "tags": [
+            "data architecture",
+            "PostgreSQL",
+            "Supabase",
+            "RBAC",
+            "security",
+            "SQL",
+            "analytics",
+            "software engineering"
+          ],
+          "weight": 9
+        },
+        {
+          "id": "inp-6",
+          "text": "Translated clinical-psychology theory into the product's data model: emotion taxonomy with valence and dyads, locus of control, response-intention and agency scoring, and motivation trajectories. I also built a structured diagnostic-reference knowledge base for clinical context.",
+          "tags": [
+            "behavioral science",
+            "clinical",
+            "psychology",
+            "domain modeling",
+            "data architecture",
+            "healthcare"
+          ],
+          "weight": 8
+        }
+      ]
+    },
     {
       "id": "bcd",
       "company": "BCD Travel",
@@ -214,19 +289,39 @@
             "GitHub Actions"
           ],
           "weight": 7
+        }
+      ]
+    },
+    {
+      "id": "medtronic",
+      "company": "Medtronic",
+      "title": "Clinical Specialist — Neuromodulation",
+      "location": "Honolulu, HI / Wilmington, NC",
+      "start": "2005-01",
+      "end": "2011-04",
+      "bullets": [
+        {
+          "id": "med-1",
+          "text": "Managed a $3.2M territory, providing surgical case coverage and patient device programming for neuromodulation and intrathecal drug-delivery therapies.",
+          "tags": [
+            "sales",
+            "healthcare",
+            "medical devices",
+            "clinical",
+            "territory management"
+          ],
+          "weight": 6
         },
         {
-          "id": "bcd-3",
-          "text": "Engineered 11 custom React (JSX) components (~10K lines) covering policy, form of payment, travel bookers, passport and visa, country security risk, suppliers and fare rules. They replaced the custom logic that had lived in Power Apps.",
+          "id": "med-2",
+          "text": "Ran regional and national physician training, resident education and speaker programs. Integrated practice-management tools for client practices.",
           "tags": [
-            "React",
-            "JavaScript",
-            "front-end",
-            "component development",
-            "UX",
-            "software engineering"
+            "training",
+            "healthcare",
+            "marketing",
+            "stakeholder management"
           ],
-          "weight": 8
+          "weight": 5
         }
       ]
     },
@@ -361,39 +456,6 @@
           "weight": 5
         }
       ]
-    },
-    {
-      "id": "medtronic",
-      "company": "Medtronic",
-      "title": "Clinical Specialist — Neuromodulation",
-      "location": "Honolulu, HI / Wilmington, NC",
-      "start": "2005-01",
-      "end": "2011-04",
-      "bullets": [
-        {
-          "id": "med-1",
-          "text": "Managed a $3.2M territory, providing surgical case coverage and patient device programming for neuromodulation and intrathecal drug-delivery therapies.",
-          "tags": [
-            "sales",
-            "healthcare",
-            "medical devices",
-            "clinical",
-            "territory management"
-          ],
-          "weight": 6
-        },
-        {
-          "id": "med-2",
-          "text": "Ran regional and national physician training, resident education and speaker programs. Integrated practice-management tools for client practices.",
-          "tags": [
-            "training",
-            "healthcare",
-            "marketing",
-            "stakeholder management"
-          ],
-          "weight": 5
-        }
-      ]
     }
   ],
   "earlier_career": [
@@ -421,14 +483,15 @@
     "Data": [
       "PostgreSQL",
       "AWS RDS",
-      "SQL",
-      "Schema migrations",
-      "Row-level access patterns"
+      "Supabase",
+      "Row-level security",
+      "SQL / PL/pgSQL",
+      "Schema migrations"
     ],
     "Application": [
       "ToolJet",
       "React / JSX",
-      "JavaScript",
+      "JavaScript / TypeScript",
       "Power Apps (Power Fx)",
       "HTML/CSS"
     ],
@@ -436,15 +499,17 @@
       "Microsoft Graph",
       "SharePoint",
       "Office 365",
+      "Stripe",
       "S3 / Cloudflare R2",
       "PowerShell",
       "REST"
     ],
     "Delivery": [
       "Git / GitHub",
+      "Supabase edge functions (Deno)",
+      "pg_cron",
       "GitHub Actions",
       "GitHub Pages",
-      "Docker",
       "Runbooks & cutover plans"
     ],
     "Insight": [
@@ -475,6 +540,8 @@
     "Hours saved or ticket reduction after migration",
     "Number of documents processed by the knowledge pipeline",
     "Team size led or coordinated at BCD and Fels",
-    "Number of DoD facilities managed at SureID"
+    "Number of DoD facilities managed at SureID",
+    "Inpsyght status: beta / pilot providers / launch date",
+    "Inpsyght front-end stack (web and mobile)"
   ]
 }
