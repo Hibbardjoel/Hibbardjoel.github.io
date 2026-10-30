@@ -90,7 +90,7 @@ Then add or keep: PostgreSQL, React.js, React Native, Supabase, Microsoft ShareP
 
 ## Education
 
-Keep both degrees, but remove the date ranges. LinkedIn allows blank dates, which keeps the section low-key.
+Add B.S., Nursing (Excelsior College) alongside the two psychology degrees, and remove the date ranges on all three. LinkedIn allows blank dates, which keeps the section low-key.
 
 ## Featured section
 
