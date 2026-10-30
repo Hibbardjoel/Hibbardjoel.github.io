@@ -23,8 +23,8 @@
   "value_props": [
     {
       "id": "vp-human",
-      "title": "Designed around human behavior",
-      "text": "Clinical-psychology training and decades of instructional design shape how I build. I study how people actually work, design for it, and ship guides and training with every release.",
+      "title": "The thread between them",
+      "text": "Clinical-psychology training and decades of instructional design. I study how people actually work, design for that, and ship the training that turns a launch into adoption.",
       "tags": [
         "behavioral science",
         "user experience",
@@ -35,8 +35,8 @@
     },
     {
       "id": "vp-modern",
-      "title": "Modern stack, built end to end",
-      "text": "At Inpsyght: a two-sided health platform on Supabase with row-level security on every table, 120+ migrations, serverless TypeScript, Stripe billing, and consent and de-identification built in.",
+      "title": "Modern platform build",
+      "text": "Founded and built a two-sided behavioral-health platform end to end, with row-level security on every table and consent, de-identification and billing engineered in from day one.",
       "tags": [
         "product management",
         "Supabase",
@@ -46,12 +46,23 @@
         "SaaS",
         "software engineering",
         "healthcare"
+      ],
+      "org": "Inpsyght",
+      "period": "2026 – present",
+      "accent": "modern",
+      "stack": [
+        "Supabase",
+        "TypeScript",
+        "Deno",
+        "Stripe",
+        "pg_cron",
+        "RLS"
       ]
     },
     {
       "id": "vp-enterprise",
-      "title": "Enterprise adoption at scale",
-      "text": "At BCD Travel: moved a 48-screen Power Apps / SharePoint platform onto ToolJet and AWS PostgreSQL. The work included tiered role-based access, a cutover and rollback plan, and the training that made the change stick.",
+      "title": "Enterprise adoption",
+      "text": "Moved a global operations platform off a 48-screen Power Apps / SharePoint build onto ToolJet and AWS PostgreSQL. The work included tiered role-based access, a cutover and rollback plan, and the training that made the change stick.",
       "tags": [
         "digital transformation",
         "platform migration",
@@ -61,6 +72,17 @@
         "governance",
         "program management",
         "adoption"
+      ],
+      "org": "BCD Travel",
+      "period": "2019 – present",
+      "accent": "enterprise",
+      "stack": [
+        "PostgreSQL",
+        "ToolJet",
+        "React",
+        "Microsoft Graph",
+        "SharePoint",
+        "AWS"
       ]
     }
   ],
@@ -198,6 +220,15 @@
           ],
           "weight": 8
         }
+      ],
+      "stack": [
+        "Supabase",
+        "PostgreSQL",
+        "TypeScript",
+        "Deno",
+        "Stripe",
+        "pg_cron",
+        "Row-level security"
       ]
     },
     {
@@ -294,6 +325,16 @@
           ],
           "weight": 7
         }
+      ],
+      "stack": [
+        "PostgreSQL",
+        "ToolJet",
+        "React",
+        "Power Apps",
+        "SharePoint",
+        "Microsoft Graph",
+        "PowerShell",
+        "AWS"
       ]
     },
     {

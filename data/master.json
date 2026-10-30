@@ -14,12 +14,12 @@
     "linkedin": "https://www.linkedin.com/in/joelhibbard",
     "github": "https://github.com/Hibbardjoel"
   },
-  "summary": "Technology and operations leader with 30+ years in high-stakes environments: military medicine, the operating room, DoD security programs and global enterprise systems. My current work shows two sides of the same capability. At BCD Travel I lead enterprise adoption, moving a global operations platform off legacy Power Apps / SharePoint onto a governed, secure PostgreSQL stack that teams actually use. As the founder of Inpsyght, I build a behavioral-health platform on a modern cloud stack (Supabase, row-level security, serverless TypeScript, Stripe) with privacy and consent engineered in from day one. A clinical-psychology lens shapes how I design for behavior, communicate with executives and bring skeptical teams along.",
+  "summary": "30+ years in high-consequence work, from Navy field medicine and the operating room to DoD security programs and global enterprise platforms. I build systems people actually adopt, and I lead the change that gets them adopted.",
   "value_props": [
     {
       "id": "vp-enterprise",
-      "title": "Enterprise adoption at scale",
-      "text": "At BCD Travel: moved a 48-screen Power Apps / SharePoint platform onto ToolJet and AWS PostgreSQL. The work included tiered role-based access, a cutover and rollback plan, and the training that made the change stick.",
+      "title": "Enterprise adoption",
+      "text": "Moved a global operations platform off a 48-screen Power Apps / SharePoint build onto ToolJet and AWS PostgreSQL. The work included tiered role-based access, a cutover and rollback plan, and the training that made the change stick.",
       "tags": [
         "digital transformation",
         "platform migration",
@@ -29,12 +29,23 @@
         "governance",
         "program management",
         "adoption"
+      ],
+      "org": "BCD Travel",
+      "period": "2019 – present",
+      "accent": "enterprise",
+      "stack": [
+        "PostgreSQL",
+        "ToolJet",
+        "React",
+        "Microsoft Graph",
+        "SharePoint",
+        "AWS"
       ]
     },
     {
       "id": "vp-modern",
-      "title": "Modern stack, built end to end",
-      "text": "At Inpsyght: a two-sided health platform on Supabase with row-level security on every table, 120+ migrations, serverless TypeScript, Stripe billing, and consent and de-identification built in.",
+      "title": "Modern platform build",
+      "text": "Founded and built a two-sided behavioral-health platform end to end, with row-level security on every table and consent, de-identification and billing engineered in from day one.",
       "tags": [
         "product management",
         "Supabase",
@@ -44,12 +55,23 @@
         "SaaS",
         "software engineering",
         "healthcare"
+      ],
+      "org": "Inpsyght",
+      "period": "2026 – present",
+      "accent": "modern",
+      "stack": [
+        "Supabase",
+        "TypeScript",
+        "Deno",
+        "Stripe",
+        "pg_cron",
+        "RLS"
       ]
     },
     {
       "id": "vp-human",
-      "title": "Designed around human behavior",
-      "text": "Clinical-psychology training and decades of instructional design shape how I build. I study how people actually work, design for it, and ship guides and training with every release.",
+      "title": "The thread between them",
+      "text": "Clinical-psychology training and decades of instructional design. I study how people actually work, design for that, and ship the training that turns a launch into adoption.",
       "tags": [
         "behavioral science",
         "user experience",
@@ -240,6 +262,16 @@
           ],
           "weight": 6
         }
+      ],
+      "stack": [
+        "PostgreSQL",
+        "ToolJet",
+        "React",
+        "Power Apps",
+        "SharePoint",
+        "Microsoft Graph",
+        "PowerShell",
+        "AWS"
       ]
     },
     {
@@ -335,6 +367,15 @@
           ],
           "weight": 8
         }
+      ],
+      "stack": [
+        "Supabase",
+        "PostgreSQL",
+        "TypeScript",
+        "Deno",
+        "Stripe",
+        "pg_cron",
+        "Row-level security"
       ]
     },
     {
