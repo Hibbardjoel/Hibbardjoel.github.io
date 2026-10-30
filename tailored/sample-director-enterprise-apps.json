@@ -24,7 +24,7 @@
     {
       "id": "vp-modern",
       "title": "Modern platform build",
-      "text": "Founded and built a behavioral-health platform end to end: mobile app, web app and provider portal, with row-level security, consent, de-identification and billing designed in.",
+      "text": "Built a behavioral-health platform to generate research-grade data on two hypotheses: that emotion can be captured as objective, measurable data, and that apathy is a primary emotional component. Mobile, web and provider apps, with privacy, consent and billing designed in.",
       "tags": [
         "product management",
         "Supabase",
@@ -33,7 +33,10 @@
         "privacy",
         "SaaS",
         "software engineering",
-        "healthcare"
+        "healthcare",
+        "research",
+        "hypothesis-driven",
+        "innovation"
       ],
       "org": "npsyt",
       "period": "2026 – present",
@@ -51,7 +54,7 @@
     {
       "id": "vp-enterprise",
       "title": "Enterprise adoption",
-      "text": "Replaced a 48-screen Power Apps / SharePoint tool with a ToolJet and AWS PostgreSQL platform: tiered access control, a rollback-ready cutover, and training that made it stick.",
+      "text": "Lead enterprise adoption and engineering integration for operations applications. Replaced a 48-screen Power Apps / SharePoint tool with a ToolJet and AWS PostgreSQL platform: tiered access control, a rollback-ready cutover, and training that made it stick.",
       "tags": [
         "digital transformation",
         "platform migration",
@@ -77,7 +80,7 @@
     {
       "id": "vp-human",
       "title": "The thread between them",
-      "text": "Clinical psychology and instructional design. I design for how people actually work, then train them through the change.",
+      "text": "Clinical psychology and enterprise-level design. I design for how people actually work, solve the real problem, and lead the change that follows.",
       "tags": [
         "behavioral science",
         "user experience",
@@ -164,11 +167,11 @@
       "location": "npsyt.io",
       "start": "2026-03",
       "end": "Present",
-      "context": "Behavioral-health platform connecting client self-reflection with provider care. I own product, clinical model and engineering.",
+      "context": "Behavioral-health platform built to test two research hypotheses: objective emotional data capture, and apathy as a primary emotional component. I own product, clinical model and engineering.",
       "bullets": [
         {
           "id": "inp-1",
-          "text": "Founded and built a two-sided product. Clients log emotions, body sensations and mindfulness on mobile and web; providers get summaries, timelines, PHQ-9 assessments and intervention-efficacy tracking.",
+          "text": "Founded npsyt to generate research-grade evidence for two hypotheses: that emotion can be captured as objective, measurable data, and that apathy is a primary emotional component.",
           "tags": [
             "entrepreneurship",
             "product strategy",
@@ -181,7 +184,11 @@
             "React",
             "React Native",
             "mobile",
-            "web"
+            "web",
+            "research",
+            "hypothesis-driven",
+            "innovation",
+            "product strategy"
           ],
           "weight": 10
         },
@@ -196,6 +203,21 @@
             "healthcare data",
             "security",
             "risk management"
+          ],
+          "weight": 9
+        },
+        {
+          "id": "inp-9",
+          "text": "Built a two-sided product: clients log emotions, body sensations and mindfulness on mobile and web; providers get summaries, timelines, PHQ-9 assessments and intervention-efficacy tracking.",
+          "tags": [
+            "product management",
+            "healthcare",
+            "behavioral health",
+            "SaaS",
+            "mobile",
+            "web",
+            "React",
+            "React Native"
           ],
           "weight": 9
         },
@@ -232,7 +254,7 @@
         },
         {
           "id": "inp-6",
-          "text": "Turned clinical-psychology theory into the data model: emotion taxonomy, locus of control, agency scoring and motivation trajectories.",
+          "text": "Turned clinical-psychology theory into the data model: emotion taxonomy with valence, locus of control, agency scoring, apathy transitions and motivation trajectories.",
           "tags": [
             "behavioral science",
             "clinical",
@@ -260,11 +282,11 @@
     {
       "id": "bcd",
       "company": "BCD Travel",
-      "title": "Performance Solutions Manager — Learning Tools & Platform Development",
+      "title": "Manager, Intelligent Ops Solutions",
       "location": "Remote",
       "start": "2019-03",
       "end": "Present",
-      "context": "Internal operations platforms for account and service teams at a global travel management company.",
+      "context": "Enterprise adoption, engineering integration and solutions for operations applications at a global travel management company.",
       "bullets": [
         {
           "id": "bcd-1",
@@ -362,7 +384,8 @@
         "PowerShell",
         "AWS"
       ],
-      "brief": 3
+      "brief": 3,
+      "previous_title": "Performance Solutions Manager, Learning Tools"
     },
     {
       "id": "medtronic",
@@ -639,7 +662,7 @@
       "era": "Enterprise technology",
       "start": 2017,
       "end": 2026,
-      "text": "LMS operations director; enterprise platforms at BCD Travel"
+      "text": "LMS operations director; enterprise operations solutions at BCD Travel"
     },
     {
       "era": "Founder",
