@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Joel Hibbard — Resume</title>
+<meta name="description" content="Joel Hibbard: technology and operations leader for enterprise platforms, data architecture and human-centered systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F7F4;      /* cool clinical white */
+    --ink:#1C2430;        /* slate ink */
+    --muted:#5B6672;
+    --scrub:#2F6F6A;      /* surgical teal */
+    --brass:#9A7535;      /* insignia brass, used once */
+    --rule:#D3D9D4;
+    --serif:"Source Serif 4", Georgia, serif;
+    --sans:"Instrument Sans", system-ui, sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--paper);color:var(--ink);font:400 16.5px/1.6 var(--sans)}
+  a{color:var(--scrub);text-underline-offset:3px}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--scrub);outline-offset:3px;border-radius:2px}
+  .wrap{max-width:62rem;margin:0 auto;padding:4.5rem 1.5rem 3rem}
+  /* hero */
+  header.hero{display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:end;padding-bottom:2.5rem;border-bottom:1px solid var(--rule)}
+  h1{font:600 clamp(2.6rem,6vw,4.25rem)/1.02 var(--serif);letter-spacing:-.02em;margin:0 0 1rem}
+  .headline{font:400 clamp(1.15rem,2.2vw,1.45rem)/1.4 var(--serif);max-width:34ch;margin:0;color:var(--ink)}
+  .contact{list-style:none;margin:0;padding:0;text-align:right;font-size:.92rem;color:var(--muted);line-height:1.9}
+  .variant{display:inline-block;margin-top:.75rem;font-size:.85rem;color:var(--scrub);border:1px solid var(--scrub);border-radius:999px;padding:.1rem .7rem}
+  .actions{margin-top:.6rem}
+  .actions button{font:500 .85rem var(--sans);background:none;border:0;color:var(--scrub);cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:3px}
+  section{padding:2.75rem 0;border-bottom:1px solid var(--rule)}
+  h2{font:600 1.5rem/1.2 var(--serif);margin:0 0 1.5rem}
+  .lede{font:400 1.1rem/1.7 var(--serif);max-width:66ch;margin:0}
+  /* value props: plain columns */
+  .props{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-top:2.25rem}
+  .props h3{font:600 1rem/1.3 var(--sans);margin:0 0 .4rem;color:var(--scrub)}
+  .props p{margin:0;font-size:.95rem;color:var(--ink)}
+  /* the memorable piece: skill bridges */
+  .bridges{display:grid;gap:0}
+  .bridge{display:grid;grid-template-columns:11rem 1fr 13rem;align-items:center;gap:1.25rem;padding:1.1rem 0;border-top:1px solid var(--rule)}
+  .bridge:first-child{border-top:0}
+  .bridge .soft{font:600 1.05rem/1.25 var(--serif);text-align:right}
+  .bridge .hard{font:600 .95rem/1.3 var(--sans);color:var(--scrub)}
+  .span{position:relative;font-size:.9rem;color:var(--muted);padding:0 0 0 0}
+  .span::before{content:"";display:block;height:2px;background:linear-gradient(90deg,var(--ink),var(--scrub));margin-bottom:.5rem;border-radius:2px}
+  .bridge-key{display:grid;grid-template-columns:11rem 1fr 13rem;gap:1.25rem;font-size:.85rem;color:var(--muted);margin-bottom:.4rem}
+  .bridge-key span:first-child{text-align:right}
+  /* competencies */
+  .comp{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem}
+  .comp h3{font:600 1rem var(--serif);margin:0 0 .6rem}
+  .comp ul{margin:0;padding:0;list-style:none;font-size:.93rem}
+  .comp li{padding:.28rem 0;border-bottom:1px dotted var(--rule)}
+  /* experience: a real timeline, so a date rail */
+  .job{display:grid;grid-template-columns:9rem 1fr;gap:1.75rem;padding:1.5rem 0}
+  .job+.job{border-top:1px solid var(--rule)}
+  .dates{font-size:.88rem;color:var(--muted);padding-top:.25rem;font-variant-numeric:tabular-nums}
+  .job h3{font:600 1.2rem/1.3 var(--serif);margin:0}
+  .job .co{font-weight:500;color:var(--scrub);margin:.15rem 0 .5rem}
+  .job .ctx{font-size:.93rem;color:var(--muted);margin:0 0 .6rem;max-width:68ch}
+  .job ul{margin:0;padding-left:1.1rem;max-width:72ch}
+  .job li{margin:.35rem 0}
+  .early{margin:1.25rem 0 0 10.75rem;font-size:.93rem;color:var(--muted);max-width:68ch}
+  .early p{margin:.3rem 0}
+  /* stack */
+  dl.stack{display:grid;grid-template-columns:9rem 1fr;gap:.6rem 1.75rem;margin:0}
+  dl.stack dt{font-weight:600;font-size:.93rem}
+  dl.stack dd{margin:0;font-size:.93rem;color:var(--muted)}
+  /* quiet footer: education lives here on purpose */
+  footer{padding:2rem 0 0;font-size:.86rem;color:var(--muted);display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+  footer strong{display:block;color:var(--ink);font-weight:600;margin-bottom:.15rem}
+  .veteran{color:var(--brass);font-weight:600}
+  @media (max-width:760px){
+    .wrap{padding-top:2.5rem}
+    header.hero{grid-template-columns:1fr}
+    .contact{text-align:left}
+    .props,.comp,footer{grid-template-columns:1fr}
+    .bridge,.bridge-key{grid-template-columns:1fr;gap:.35rem}
+    .bridge .soft,.bridge-key span:first-child{text-align:left}
+    .bridge-key{display:none}
+    .job{grid-template-columns:1fr;gap:.25rem}
+    .early{margin-left:0}
+    dl.stack{grid-template-columns:1fr;gap:.15rem}
+    dl.stack dd{margin-bottom:.6rem}
+  }
+  @media print{
+    @page{margin:.55in}
+    body{background:#fff;font-size:10.5pt}
+    .wrap{padding:0;max-width:none;zoom:.9}
+    .actions,.variant{display:none}
+    section{padding:1rem 0}
+    h1{font-size:28pt}
+    .job{padding:.6rem 0}
+    .job li,.job h3,.job .co{break-inside:avoid;break-after:auto}
+    h2,.job h3,.job .co{break-after:avoid}
+    .bridge{padding:.45rem 0}
+    a{color:var(--ink);text-decoration:none}
+    body{font-size:9pt;line-height:1.35}
+    .wrap > section:first-of-type{padding-top:.5rem}
+    section{padding:.55rem 0}
+    header.hero{padding-bottom:.8rem}
+    .headline{font-size:12pt}
+    .lede{font-size:10pt;line-height:1.5}
+    .props{margin-top:.8rem;gap:1rem}
+    .props p{font-size:9pt}
+    section[aria-labelledby="s-br"],section[aria-labelledby="s-comp"]{display:none}
+    dl.stack{grid-template-columns:6.5rem 1fr;gap:.15rem 1rem}
+    dl.stack dt,dl.stack dd{font-size:9pt}
+    @page{margin:.4in .45in}
+    .props{display:none}
+    h2{font-size:13pt;margin-bottom:.5rem}
+    .job{grid-template-columns:6.5rem 1fr;gap:1rem;padding:.4rem 0}
+    .job li{margin:.15rem 0}
+    .job .ctx{display:none}
+    .early{margin-left:7.5rem}
+    .comp li{padding:.05rem 0;border:0;font-size:8.8pt}
+    footer{padding-top:.6rem}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .span::before{transform-origin:left;animation:draw .9s ease-out both}
+    .bridge:nth-child(2) .span::before{animation-delay:.12s}
+    .bridge:nth-child(3) .span::before{animation-delay:.24s}
+    .bridge:nth-child(4) .span::before{animation-delay:.36s}
+    .bridge:nth-child(5) .span::before{animation-delay:.48s}
+    @keyframes draw{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  }
+</style>
+</head>
+<body>
+<main class="wrap" id="app" aria-live="polite"><p>Loading resume…</p></main>
+
+<!-- Inline copy of data/master.json, used when fetch is unavailable (e.g. opened as a file). Rebuilt by build.py. -->
+<script type="application/json" id="inline-data">{"$schema_version": "1.0", "variant": {"id": "master", "label": "General", "target_role": "Technology & Operations Leader", "generated": "2026-10-30"}, "person": {"name": "Joel Hibbard", "headline": "Technology and operations leader for enterprise platforms, data architecture and human-centered systems", "location": "West Palm Beach, FL", "email": "hibbardjoel@gmail.com", "linkedin": "https://www.linkedin.com/in/joelhibbard", "github": "https://github.com/Hibbardjoel"}, "summary": "Technology and operations leader with 30+ years in high-stakes environments: military medicine, the operating room, DoD security programs, and global enterprise systems. I take fragmented, manual processes and turn them into governed, secure platforms that people actually use. I design the architecture myself, from PostgreSQL data models and role-based access to React components and document pipelines, and I lead the rollout, training and change management that make adoption stick. A clinical-psychology lens shapes how I design for behavior, communicate with executives and bring skeptical teams along.", "value_props": [{"id": "vp-modernize", "title": "Modernize without disruption", "text": "Moved an enterprise account platform from a 48-screen Power Apps / SharePoint build to a governed ToolJet + AWS PostgreSQL stack. The phased roadmap included a cutover runbook and rollback plan.", "tags": ["digital transformation", "platform migration", "risk management", "program management"]}, {"id": "vp-secure", "title": "Secure by design", "text": "Built multi-tenant role-based access (Global / Regional / Country / Scoped) across a three-tier account hierarchy, with least-privilege database roles, SSO and a restricted-access fence for government accounts.", "tags": ["security", "RBAC", "governance", "compliance", "data architecture"]}, {"id": "vp-human", "title": "Built for human adoption", "text": "I pair clinical-psychology training and decades of instructional design with engineering. Every rollout ships with guides, video training and release notes, so people actually change how they work.", "tags": ["change management", "training", "adoption", "user experience", "behavioral science"]}], "competencies": {"leadership": ["Executive stakeholder advisory", "Program & portfolio management", "Digital transformation & change management", "Governance, standards & compliance", "Vendor & contract negotiation", "Crisis leadership under pressure", "Team training & capability building"], "technical": ["Data architecture & PostgreSQL (AWS)", "Role-based access control / multi-tenant security", "React (JSX) custom components", "Low-code platforms: ToolJet, Power Apps", "SharePoint, Microsoft Graph API, Office 365", "ETL & document pipelines (PowerShell, S3/R2)", "AI-enriched content & metadata", "CI/CD, schema migration & release management", "Dashboards, KPIs & analytics", "Learning management systems"], "human": ["Behavioral insight (clinical psychology)", "Instructional systems design", "User research & process mapping", "Clear technical communication", "Building trust with skeptical users", "Calm decision-making in high-consequence settings"]}, "skill_bridges": [{"id": "sb-1", "soft": "Change leadership", "hard": "Platform migration & cutover planning", "evidence": "Phased Power Apps → ToolJet/PostgreSQL migration with a go-live runbook, success criteria and rollback."}, {"id": "sb-2", "soft": "Trust & judgment", "hard": "RBAC & data security", "evidence": "Tiered access model with a restricted fence for government accounts; least-privilege DB users; SSO."}, {"id": "sb-3", "soft": "Behavioral insight", "hard": "UX & component engineering", "evidence": "11 custom React modules designed around how operations staff actually look up policy, payment and traveler data."}, {"id": "sb-4", "soft": "Teaching & enablement", "hard": "Documentation & release management", "evidence": "User guides, GIF/video walkthroughs and release notes published alongside each release."}, {"id": "sb-5", "soft": "Composure under pressure", "hard": "Incident & operational readiness", "evidence": "FMF Corpsman, surgical first assistant and ICS-certified. That experience carries over to production incidents and go-lives."}], "experience": [{"id": "bcd", "company": "BCD Travel", "title": "Performance Solutions Manager — Learning Tools & Platform Development", "location": "West Palm Beach, FL", "start": "2019-03", "end": "Present", "context": "Global corporate travel management company. I lead the design and delivery of internal operations platforms used by account and service teams.", "bullets": [{"id": "bcd-1", "text": "Led the modernization of the enterprise Account Tool. The legacy Power Apps canvas app (48 screens, ~60 SharePoint and Office 365 data sources) moved to a self-hosted ToolJet front end on AWS PostgreSQL, following a five-phase roadmap: UX, architecture, migration, security and cutover.", "tags": ["digital transformation", "platform migration", "program management", "PostgreSQL", "ToolJet", "Power Apps", "SharePoint", "AWS", "leadership"], "weight": 10}, {"id": "bcd-2", "text": "Designed the data model and multi-tenant access control: tiered Global, Regional, Country and Scoped access across a GCN → SMID → LCN account hierarchy, a restricted-access fence for government accounts, least-privilege database roles, TLS and SSO/OAuth2 user provisioning.", "tags": ["data architecture", "RBAC", "security", "governance", "compliance", "PostgreSQL", "SSO", "OAuth2"], "weight": 9}, {"id": "bcd-3", "text": "Engineered 11 custom React (JSX) components (~10K lines) covering policy, form of payment, travel bookers, passport and visa, country security risk, suppliers and fare rules. They replaced the custom logic that had lived in Power Apps.", "tags": ["React", "JavaScript", "front-end", "component development", "UX", "software engineering"], "weight": 8}, {"id": "bcd-4", "text": "Architected a SharePoint → object storage (S3/R2) → PostgreSQL knowledge pipeline. It uses Microsoft Graph delta change detection, converts Office documents to PDF, Markdown and AI-enriched JSON, prevents overlapping runs with lock files and reconciles its own inventory.", "tags": ["data pipeline", "ETL", "AI", "Microsoft Graph", "PowerShell", "S3", "automation", "knowledge management"], "weight": 8}, {"id": "bcd-5", "text": "Defined release governance: migration-based schema control with CI/CD to staging, staging → dev → prod data-promotion scripts with duplicate detection and preload validation, and an hour-by-hour go-live plan with named owners, success criteria and rollback.", "tags": ["release management", "CI/CD", "DevOps", "data quality", "risk management", "SQL", "GitHub Actions"], "weight": 7}, {"id": "bcd-6", "text": "Drove adoption through performance-support content: user guides, GIF/video walkthroughs and release notes published to GitHub-hosted wikis and embedded in-app viewers.", "tags": ["training", "change management", "documentation", "learning & development", "adoption", "communication"], "weight": 6}, {"id": "bcd-7", "text": "Serve as the bridge between operations leadership and engineering. I translate business rules (payment, policy, approvals, vendor programs) into specifications, runbooks and stakeholder-ready design documents.", "tags": ["stakeholder management", "requirements", "business analysis", "communication", "executive advisory"], "weight": 6}]}, {"id": "fels", "company": "Fels & Associates", "title": "Director of Operations — Learning Management", "location": "Wilmington, NC", "start": "2017-10", "end": "2019-03", "bullets": [{"id": "fels-1", "text": "Directed learning management system (LMS) content delivery, virtual learning environments and the governance standards that applied across corporate agencies.", "tags": ["operations leadership", "LMS", "governance", "learning & development"], "weight": 7}, {"id": "fels-2", "text": "Led data integration across company platforms, writing use cases and process maps for development and engineering teams.", "tags": ["data integration", "process mapping", "requirements", "systems analysis"], "weight": 7}, {"id": "fels-3", "text": "Built KPI and trend dashboards for senior-leadership monitoring and reporting.", "tags": ["dashboards", "KPIs", "analytics", "executive reporting"], "weight": 6}]}, {"id": "sureid", "company": "SureID, Inc.", "title": "Regional Program Manager — Mid-Atlantic / Southeast", "location": "DoD installations", "start": "2016-03", "end": "2017-05", "bullets": [{"id": "sureid-1", "text": "Managed physical and logical access-control programs across multiple Department of Defense facilities, covering security operations and compliance training.", "tags": ["program management", "security", "access control", "compliance", "government", "DoD"], "weight": 8}, {"id": "sureid-2", "text": "Advised senior stakeholders on access-control technology and programs of record. Built analytics that combined physical-security and ingress data to surface site-level trends.", "tags": ["executive advisory", "analytics", "security", "data integration"], "weight": 7}, {"id": "sureid-3", "text": "Negotiated and executed contracts and renewals with DoD agencies, and represented the program to tenant sponsor communities.", "tags": ["contract negotiation", "business development", "government", "stakeholder management"], "weight": 6}]}, {"id": "tier1", "company": "Tier 1 Holding Group", "title": "Strategic Technology Development Manager", "location": "Lumberton, NC", "start": "2015-05", "end": "2016-01", "bullets": [{"id": "tier1-1", "text": "Led implementation, training and evaluation for virtual tracking and monitoring systems, UAV systems and human-systems evaluation. Wrote SOPs and safety controls for trainers and role players.", "tags": ["technology implementation", "training", "human factors", "SOPs", "safety"], "weight": 6}, {"id": "tier1-2", "text": "Evaluated and targeted international oil-and-gas customers for monitoring-system adoption.", "tags": ["business development", "international", "strategy"], "weight": 4}]}, {"id": "wpg", "company": "Wilmington Proving Ground", "title": "Founder & Program Director", "location": "Wilmington, NC", "start": "2011-01", "end": "2015-01", "bullets": [{"id": "wpg-1", "text": "Founded and ran a training business offering threat-avoidance curriculum and scenario-based law-enforcement training. Built competency frameworks to evaluate individual performance.", "tags": ["entrepreneurship", "P&L", "curriculum design", "competency frameworks", "training"], "weight": 5}]}, {"id": "medtronic", "company": "Medtronic", "title": "Clinical Specialist — Neuromodulation", "location": "Honolulu, HI / Wilmington, NC", "start": "2005-01", "end": "2011-04", "bullets": [{"id": "med-1", "text": "Managed a $3.2M territory, providing surgical case coverage and patient device programming for neuromodulation and intrathecal drug-delivery therapies.", "tags": ["sales", "healthcare", "medical devices", "clinical", "territory management"], "weight": 6}, {"id": "med-2", "text": "Ran regional and national physician training, resident education and speaker programs. Integrated practice-management tools for client practices.", "tags": ["training", "healthcare", "marketing", "stakeholder management"], "weight": 5}]}], "earlier_career": [{"id": "early-sfa", "text": "Surgical First Assistant (travel and staff), 1998–2005: trauma, neuro, orthopedic and cardiac specialties nationwide.", "tags": ["healthcare", "clinical", "operations under pressure"]}, {"id": "early-navy", "text": "U.S. Navy Hospital Corpsman, FMF, 1st Marine Division, 1991–1997 (Honorable Discharge). Combat casualty care training and medical readiness for rapid-deployment units.", "tags": ["military", "veteran", "leadership", "crisis management"]}], "tech_stack": {"Data": ["PostgreSQL", "AWS RDS", "SQL", "Schema migrations", "Row-level access patterns"], "Application": ["ToolJet", "React / JSX", "JavaScript", "Power Apps (Power Fx)", "HTML/CSS"], "Integration": ["Microsoft Graph", "SharePoint", "Office 365", "S3 / Cloudflare R2", "PowerShell", "REST"], "Delivery": ["Git / GitHub", "GitHub Actions", "GitHub Pages", "Docker", "Runbooks & cutover plans"], "Insight": ["KPI dashboards", "LMS platforms", "AI-enriched metadata"]}, "certifications": ["FEMA ICS-100, ICS-200, IS-700 (NIMS)"], "languages": ["English (native)", "American Sign Language (limited working)"], "education": [{"degree": "M.A., Clinical Psychology", "school": "Liberty University"}, {"degree": "B.S., Psychology", "school": "Liberty University"}], "metrics_to_collect": ["Number of users / teams on the Account Tool (ToolJet)", "Hours saved or ticket reduction after migration", "Number of documents processed by the knowledge pipeline", "Team size led or coordinated at BCD and Fels", "Number of DoD facilities managed at SureID"]}</script>
+<script>
+(function(){
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const fmt = ym => { if(!ym || ym==="Present") return ym||""; const [y,m]=ym.split("-"); return new Date(+y,(+m||1)-1).toLocaleString("en-US",{month:"short",year:"numeric"}); };
+
+  // Variant selection: ?v=slug (GitHub Pages) or #v-slug (hash-only hosts)
+  const q = new URLSearchParams(location.search).get("v");
+  const h = (location.hash.match(/^#v-([a-z0-9-]+)$/)||[])[1];
+  const slug = (q || h || "").replace(/[^a-z0-9-]/g,"");
+  const url = slug ? `tailored/${slug}.json` : "data/master.json";
+
+  function inline(){ try{ return JSON.parse(document.getElementById("inline-data").textContent); }catch(e){ return null; } }
+
+  async function load(){
+    try{ const r = await fetch(url,{cache:"no-store"}); if(r.ok) return r.json(); }catch(e){}
+    return inline();
+  }
+
+  function render(d){
+    const p = d.person, v = d.variant || {};
+    const jobs = d.experience.map(j => `
+      <article class="job">
+        <div class="dates">${esc(fmt(j.start))} – ${esc(fmt(j.end))}</div>
+        <div>
+          <h3>${esc(j.title)}</h3>
+          <p class="co">${esc(j.company)}${j.location ? `, ${esc(j.location)}`:""}</p>
+          ${j.context ? `<p class="ctx">${esc(j.context)}</p>`:""}
+          <ul>${j.bullets.map(b=>`<li>${esc(b.text)}</li>`).join("")}</ul>
+        </div>
+      </article>`).join("");
+    const early = (d.earlier_career||[]).map(e=>`<p>${esc(e.text)}</p>`).join("");
+    const bridges = (d.skill_bridges||[]).map(b=>`
+      <div class="bridge">
+        <div class="soft">${esc(b.soft)}</div>
+        <div class="span">${esc(b.evidence)}</div>
+        <div class="hard">${esc(b.hard)}</div>
+      </div>`).join("");
+    const comp = d.competencies||{};
+    const compCol = (t,arr)=> arr&&arr.length ? `<div><h3>${t}</h3><ul>${arr.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>` : "";
+    const stack = Object.entries(d.tech_stack||{}).map(([k,v])=>`<dt>${esc(k)}</dt><dd>${v.map(esc).join(", ")}</dd>`).join("");
+    const edu = (d.education||[]).map(e=>`${esc(e.degree)}, ${esc(e.school)}`).join("<br>");
+
+    document.title = `${p.name} — ${v.target_role || "Resume"}`;
+    document.getElementById("app").innerHTML = `
+      <header class="hero">
+        <div>
+          <h1>${esc(p.name)}</h1>
+          <p class="headline">${esc(p.headline)}</p>
+          ${v.id && v.id!=="master" ? `<span class="variant">Tailored for ${esc(v.label)}</span>`:""}
+        </div>
+        <ul class="contact">
+          <li>${esc(p.location)}</li>
+          <li><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></li>
+          <li><a href="${esc(p.linkedin)}">LinkedIn</a> &nbsp; <a href="${esc(p.github)}">GitHub</a></li>
+          <li class="actions"><button type="button" id="print">Save as PDF</button></li>
+        </ul>
+      </header>
+
+      <section aria-labelledby="s-sum">
+        <h2 id="s-sum" class="sr">Summary</h2>
+        <p class="lede">${esc(d.summary)}</p>
+        <div class="props">${(d.value_props||[]).map(x=>`<div><h3>${esc(x.title)}</h3><p>${esc(x.text)}</p></div>`).join("")}</div>
+      </section>
+
+      ${bridges ? `<section aria-labelledby="s-br">
+        <h2 id="s-br">Where the people skills meet the technical work</h2>
+        <div class="bridge-key"><span>Leadership trait</span><span>Proof</span><span>Technical capability</span></div>
+        <div class="bridges">${bridges}</div>
+      </section>`:""}
+
+      <section aria-labelledby="s-exp">
+        <h2 id="s-exp">Experience</h2>
+        ${jobs}
+        ${early ? `<div class="early"><p><strong>Earlier career</strong></p>${early}</div>`:""}
+      </section>
+
+      <section aria-labelledby="s-comp">
+        <h2 id="s-comp">Capabilities</h2>
+        <div class="comp">
+          ${compCol("Leadership", comp.leadership)}
+          ${compCol("Technical", comp.technical)}
+          ${compCol("Human-centered", comp.human)}
+        </div>
+      </section>
+
+      <section aria-labelledby="s-stack">
+        <h2 id="s-stack">Technology I work in</h2>
+        <dl class="stack">${stack}</dl>
+      </section>
+
+      <footer>
+        <div><strong>Service</strong><span class="veteran">U.S. Navy veteran</span>, FMF Corpsman</div>
+        <div><strong>Certifications and languages</strong>${(d.certifications||[]).map(esc).join("<br>")}<br>${(d.languages||[]).map(esc).join(", ")}</div>
+        <div><strong>Education</strong>${edu}</div>
+      </footer>`;
+    const pb = document.getElementById("print");
+    if(pb) pb.addEventListener("click",()=>{ try{ window.print(); }catch(e){} });
+  }
+
+  load().then(d => d ? render(d) : (document.getElementById("app").innerHTML = "<p>Resume data could not be loaded. Check that data/master.json is published with the site.</p>"));
+})();
+</script>
+<style>.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}</style>
+</body>
+</html>
