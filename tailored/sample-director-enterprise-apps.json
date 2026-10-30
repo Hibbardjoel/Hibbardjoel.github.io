@@ -13,7 +13,7 @@
   },
   "person": {
     "name": "Joel Hibbard",
-    "headline": "Enterprise applications leader and behavioral-health platform founder who turns legacy tools into secure, adopted data platforms",
+    "headline": "Enterprise applications leader proven at enterprise scale (BCD Travel) and as a behavioral-health platform founder (Inpsyght)",
     "location": "West Palm Beach, FL",
     "email": "hibbardjoel@gmail.com",
     "linkedin": "https://www.linkedin.com/in/joelhibbard",
@@ -23,40 +23,44 @@
   "value_props": [
     {
       "id": "vp-human",
-      "title": "Built for human adoption",
-      "text": "I pair clinical-psychology training and decades of instructional design with engineering. Every rollout ships with guides, video training and release notes, so people actually change how they work.",
+      "title": "Designed around human behavior",
+      "text": "Clinical-psychology training and decades of instructional design shape how I build. I study how people actually work, design for it, and ship guides and training with every release.",
       "tags": [
-        "change management",
+        "behavioral science",
+        "user experience",
         "training",
         "adoption",
-        "user experience",
-        "behavioral science"
+        "change management"
       ]
     },
     {
-      "id": "vp-secure",
-      "title": "Secure and privacy-first by design",
-      "text": "Multi-tenant role-based access for a global enterprise platform, and for my own health platform: row-level security on every table, versioned consent, de-identified research data and automated account purge.",
+      "id": "vp-modern",
+      "title": "Modern stack, built end to end",
+      "text": "At Inpsyght: a two-sided health platform on Supabase with row-level security on every table, 120+ migrations, serverless TypeScript, Stripe billing, and consent and de-identification built in.",
       "tags": [
-        "security",
-        "RBAC",
-        "governance",
-        "compliance",
-        "data architecture",
+        "product management",
+        "Supabase",
+        "TypeScript",
+        "Stripe",
         "privacy",
-        "consent management",
-        "healthcare data"
+        "SaaS",
+        "software engineering",
+        "healthcare"
       ]
     },
     {
-      "id": "vp-modernize",
-      "title": "Modernize without disruption",
-      "text": "Moved an enterprise account platform from a 48-screen Power Apps / SharePoint build to a governed ToolJet + AWS PostgreSQL stack. The phased roadmap included a cutover runbook and rollback plan.",
+      "id": "vp-enterprise",
+      "title": "Enterprise adoption at scale",
+      "text": "At BCD Travel: moved a 48-screen Power Apps / SharePoint platform onto ToolJet and AWS PostgreSQL. The work included tiered role-based access, a cutover and rollback plan, and the training that made the change stick.",
       "tags": [
         "digital transformation",
         "platform migration",
-        "risk management",
-        "program management"
+        "enterprise",
+        "change management",
+        "RBAC",
+        "governance",
+        "program management",
+        "adoption"
       ]
     }
   ],
@@ -135,7 +139,7 @@
       "location": "Independent venture",
       "start": "2026-03",
       "end": "Present",
-      "context": "A behavioral-health platform that connects client self-reflection with provider care. I own the product vision, the clinical model and the full backend.",
+      "context": "Modern-stack product build: a behavioral-health platform connecting client self-reflection with provider care. I own the product vision, the clinical model and the full backend.",
       "bullets": [
         {
           "id": "inp-1",
@@ -203,7 +207,7 @@
       "location": "West Palm Beach, FL",
       "start": "2019-03",
       "end": "Present",
-      "context": "Global corporate travel management company. I lead the design and delivery of internal operations platforms used by account and service teams.",
+      "context": "Enterprise adoption: a global corporate travel management company. I lead the design and delivery of the internal operations platforms account and service teams rely on.",
       "bullets": [
         {
           "id": "bcd-1",

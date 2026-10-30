@@ -6,7 +6,7 @@ Paste each block into the matching LinkedIn field. Character limits are noted.
 
 ## Headline (max 220)
 
-Technology & Operations Leader | Enterprise Platforms, Data Architecture & Secure Access | Turning legacy tools into systems people adopt | U.S. Navy Veteran
+Technology & Operations Leader | Enterprise Platform Adoption at BCD Travel | Founder, Inpsyght (Behavioral-Health SaaS) | Data Architecture & Privacy | U.S. Navy Veteran
 
 ## About (max 2,600)
 
@@ -14,12 +14,18 @@ I build systems people actually use, and I lead the change that gets them used.
 
 My career started in high-consequence settings: as a Navy FMF corpsman with the 1st Marine Division, then as a surgical first assistant and a Medtronic clinical specialist. Over time I moved into the systems behind the work, including DoD access-control programs, learning-management operations, and for the past seven years enterprise internal platforms at BCD Travel.
 
-What I do now:
+My current work shows two sides of the same capability. At BCD Travel, I drive adoption across a global enterprise. At Inpsyght, the behavioral-health platform I founded, I build end to end on a modern cloud stack.
+
+Enterprise adoption (BCD Travel):
 • Modernize legacy platforms. I led the move of a 48-screen Power Apps / SharePoint account tool to a self-hosted ToolJet front end on AWS PostgreSQL, with a phased roadmap, cutover runbook and rollback plan.
 • Design secure data architecture. Multi-tenant role-based access (global, regional, country, scoped), least-privilege database roles, SSO and restricted-access controls for government accounts.
 • Engineer the hands-on pieces. Custom React components, SharePoint-to-S3/R2-to-PostgreSQL document pipelines with Microsoft Graph delta sync and AI-enriched metadata, and staging-to-production data promotion.
 • Drive adoption. Guides, video training and release notes ship with every release, because a platform nobody uses has failed.
-• Build my own product. I founded Inpsyght, a behavioral-health platform that connects client self-reflection with provider care. I designed its clinical model, privacy and consent framework, and full Supabase/PostgreSQL backend.
+
+Modern-stack product build (Inpsyght):
+• A two-sided platform connecting client self-reflection with provider care, on Supabase/PostgreSQL with row-level security on every table, serverless TypeScript and Stripe billing.
+• Privacy and consent engineered in from day one: versioned consent, jurisdiction-aware age rules, de-identified research data and automated account purge.
+• A clinical model of emotion, motivation and body awareness, built from my training in psychology.
 
 My graduate work in clinical psychology shapes how I design for behavior, communicate with executives and bring skeptical teams along.
 
@@ -58,7 +64,6 @@ A behavioral-health platform that connects client self-reflection with provider 
 
 **Skills to attach:** Product Strategy · Supabase · Data Privacy · Behavioral Health · TypeScript
 
-(Hold off on this entry if you'd rather keep Inpsyght quiet until launch, or until you've checked BCD's outside-activity policy.)
 
 ## Other experience entries
 
@@ -80,4 +85,4 @@ Keep both degrees listed, but remove the date ranges. LinkedIn allows blank date
 
 ## Featured section
 
-Add the GitHub Pages resume link. Optionally add the public `account_tool_user_guides` wiki as a sample of your documentation and training work, after confirming BCD is fine with it being public.
+Add the GitHub Pages resume link and the Inpsyght site or a short product demo (screenshots or a 60-second walkthrough of the client and provider views). Optionally add the public `account_tool_user_guides` wiki as a sample of your documentation and training work, after confirming BCD is fine with it being public.

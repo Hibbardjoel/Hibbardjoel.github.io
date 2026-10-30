@@ -8,50 +8,54 @@
   },
   "person": {
     "name": "Joel Hibbard",
-    "headline": "Technology and operations leader for enterprise platforms, data architecture and human-centered systems",
+    "headline": "Technology leader who drives enterprise-scale adoption and builds modern platforms end to end",
     "location": "West Palm Beach, FL",
     "email": "hibbardjoel@gmail.com",
     "linkedin": "https://www.linkedin.com/in/joelhibbard",
     "github": "https://github.com/Hibbardjoel"
   },
-  "summary": "Technology and operations leader with 30+ years in high-stakes environments: military medicine, the operating room, DoD security programs, global enterprise systems, and now a behavioral-health platform I founded. I take fragmented, manual processes and turn them into governed, secure platforms that people actually use. I design the architecture myself, from PostgreSQL data models, row-level security and consent frameworks to React components and data pipelines, and I lead the rollout, training and change management that make adoption stick. A clinical-psychology lens shapes how I design for behavior, communicate with executives and bring skeptical teams along.",
+  "summary": "Technology and operations leader with 30+ years in high-stakes environments: military medicine, the operating room, DoD security programs and global enterprise systems. My current work shows two sides of the same capability. At BCD Travel I lead enterprise adoption, moving a global operations platform off legacy Power Apps / SharePoint onto a governed, secure PostgreSQL stack that teams actually use. As the founder of Inpsyght, I build a behavioral-health platform on a modern cloud stack (Supabase, row-level security, serverless TypeScript, Stripe) with privacy and consent engineered in from day one. A clinical-psychology lens shapes how I design for behavior, communicate with executives and bring skeptical teams along.",
   "value_props": [
     {
-      "id": "vp-modernize",
-      "title": "Modernize without disruption",
-      "text": "Moved an enterprise account platform from a 48-screen Power Apps / SharePoint build to a governed ToolJet + AWS PostgreSQL stack. The phased roadmap included a cutover runbook and rollback plan.",
+      "id": "vp-enterprise",
+      "title": "Enterprise adoption at scale",
+      "text": "At BCD Travel: moved a 48-screen Power Apps / SharePoint platform onto ToolJet and AWS PostgreSQL. The work included tiered role-based access, a cutover and rollback plan, and the training that made the change stick.",
       "tags": [
         "digital transformation",
         "platform migration",
-        "risk management",
-        "program management"
+        "enterprise",
+        "change management",
+        "RBAC",
+        "governance",
+        "program management",
+        "adoption"
       ]
     },
     {
-      "id": "vp-secure",
-      "title": "Secure and privacy-first by design",
-      "text": "Multi-tenant role-based access for a global enterprise platform, and for my own health platform: row-level security on every table, versioned consent, de-identified research data and automated account purge.",
+      "id": "vp-modern",
+      "title": "Modern stack, built end to end",
+      "text": "At Inpsyght: a two-sided health platform on Supabase with row-level security on every table, 120+ migrations, serverless TypeScript, Stripe billing, and consent and de-identification built in.",
       "tags": [
-        "security",
-        "RBAC",
-        "governance",
-        "compliance",
-        "data architecture",
+        "product management",
+        "Supabase",
+        "TypeScript",
+        "Stripe",
         "privacy",
-        "consent management",
-        "healthcare data"
+        "SaaS",
+        "software engineering",
+        "healthcare"
       ]
     },
     {
       "id": "vp-human",
-      "title": "Built for human adoption",
-      "text": "I pair clinical-psychology training and decades of instructional design with engineering. Every rollout ships with guides, video training and release notes, so people actually change how they work.",
+      "title": "Designed around human behavior",
+      "text": "Clinical-psychology training and decades of instructional design shape how I build. I study how people actually work, design for it, and ship guides and training with every release.",
       "tags": [
-        "change management",
+        "behavioral science",
+        "user experience",
         "training",
         "adoption",
-        "user experience",
-        "behavioral science"
+        "change management"
       ]
     }
   ],
@@ -136,7 +140,7 @@
       "location": "West Palm Beach, FL",
       "start": "2019-03",
       "end": "Present",
-      "context": "Global corporate travel management company. I lead the design and delivery of internal operations platforms used by account and service teams.",
+      "context": "Enterprise adoption: a global corporate travel management company. I lead the design and delivery of the internal operations platforms account and service teams rely on.",
       "bullets": [
         {
           "id": "bcd-1",
@@ -245,7 +249,7 @@
       "location": "Independent venture",
       "start": "2026-03",
       "end": "Present",
-      "context": "A behavioral-health platform that connects client self-reflection with provider care. I own the product vision, the clinical model and the full backend.",
+      "context": "Modern-stack product build: a behavioral-health platform connecting client self-reflection with provider care. I own the product vision, the clinical model and the full backend.",
       "bullets": [
         {
           "id": "inp-1",
