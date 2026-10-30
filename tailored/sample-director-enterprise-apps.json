@@ -8,35 +8,23 @@
     "source_jd": "Sample JD: behavioral health network, internal tools modernization",
     "gaps": [
       "People management: confirm team size led and add headcount",
-      "HIPAA: no formal compliance claim. Point to Inpsyght's consent, de-identification and row-level security in the cover letter"
+      "HIPAA: no formal compliance claim. Point to npsyt's consent, de-identification and row-level security in the cover letter"
     ]
   },
   "person": {
     "name": "Joel Hibbard",
-    "headline": "Enterprise applications leader proven at enterprise scale (BCD Travel) and as a behavioral-health platform founder (Inpsyght)",
-    "location": "West Palm Beach, FL",
+    "headline": "Enterprise applications leader with a clinical foundation: proven at enterprise scale and as a behavioral-health platform founder",
+    "location": "Golden, CO",
     "email": "hibbardjoel@gmail.com",
     "linkedin": "https://www.linkedin.com/in/joelhibbard",
     "github": "https://github.com/Hibbardjoel"
   },
-  "summary": "Technology leader with a clinical foundation: an M.A. in clinical psychology, years in the operating room and in medical devices, and the founder of a behavioral-health platform built for clients and providers. At BCD Travel I led the move of a 48-screen Power Apps / SharePoint platform onto ToolJet and AWS PostgreSQL, including the role-based security model, the cutover and the adoption program. I work comfortably with C-suite and clinical operations leaders, and I build for how people actually behave, not how a process diagram says they should.",
+  "summary": "M.A. in clinical psychology, years in the operating room and medical devices, and seven years modernizing enterprise internal tools. I build platforms clinicians and operations teams actually adopt, and I lead the change that gets them there.",
   "value_props": [
-    {
-      "id": "vp-human",
-      "title": "The thread between them",
-      "text": "Clinical-psychology training and decades of instructional design. I study how people actually work, design for that, and ship the training that turns a launch into adoption.",
-      "tags": [
-        "behavioral science",
-        "user experience",
-        "training",
-        "adoption",
-        "change management"
-      ]
-    },
     {
       "id": "vp-modern",
       "title": "Modern platform build",
-      "text": "Founded and built a two-sided behavioral-health platform end to end: a mobile app, a web app and a provider portal on Supabase, with row-level security on every table and consent, de-identification and billing engineered in from day one.",
+      "text": "Founded and built a behavioral-health platform end to end: mobile app, web app and provider portal, with row-level security, consent, de-identification and billing designed in.",
       "tags": [
         "product management",
         "Supabase",
@@ -47,7 +35,7 @@
         "software engineering",
         "healthcare"
       ],
-      "org": "Inpsyght",
+      "org": "npsyt",
       "period": "2026 – present",
       "accent": "modern",
       "stack": [
@@ -57,12 +45,13 @@
         "TypeScript",
         "Stripe",
         "Python"
-      ]
+      ],
+      "url": "https://npsyt.io"
     },
     {
       "id": "vp-enterprise",
       "title": "Enterprise adoption",
-      "text": "Moved a global operations platform off a 48-screen Power Apps / SharePoint build onto ToolJet and AWS PostgreSQL. The work included tiered role-based access, a cutover and rollback plan, and the training that made the change stick.",
+      "text": "Replaced a 48-screen Power Apps / SharePoint tool with a ToolJet and AWS PostgreSQL platform: tiered access control, a rollback-ready cutover, and training that made it stick.",
       "tags": [
         "digital transformation",
         "platform migration",
@@ -84,6 +73,18 @@
         "SharePoint",
         "AWS"
       ]
+    },
+    {
+      "id": "vp-human",
+      "title": "The thread between them",
+      "text": "Clinical psychology and instructional design. I design for how people actually work, then train them through the change.",
+      "tags": [
+        "behavioral science",
+        "user experience",
+        "training",
+        "adoption",
+        "change management"
+      ]
     }
   ],
   "competencies": {
@@ -101,8 +102,10 @@
       "Data architecture & PostgreSQL (AWS, Supabase)",
       "Role-based access control / multi-tenant security",
       "Privacy engineering: consent, de-identification, retention",
+      "Mobile & web apps: React Native (Expo), React 19, Vite",
       "React (JSX) custom components",
       "TypeScript / Deno serverless functions, Stripe billing",
+      "Research analytics in Python: mixed-effects models",
       "Low-code platforms: ToolJet, Power Apps",
       "SharePoint, Microsoft Graph API, Office 365",
       "ETL & document pipelines (PowerShell, S3/R2)",
@@ -126,46 +129,46 @@
       "id": "sb-1",
       "soft": "Change leadership",
       "hard": "Platform migration & cutover planning",
-      "evidence": "Phased Power Apps → ToolJet/PostgreSQL migration with a go-live runbook, success criteria and rollback."
+      "evidence": "Power Apps → ToolJet/PostgreSQL migration with a go-live runbook, success criteria and rollback."
     },
     {
       "id": "sb-3",
       "soft": "Behavioral insight",
       "hard": "UX & component engineering",
-      "evidence": "Inpsyght's emotion and body-mapping model is built on clinical theory. The BCD React modules follow how operations staff actually look up policy, payment and traveler data."
+      "evidence": "npsyt's emotion and body-mapping model rests on clinical theory; BCD's React modules follow how operations staff actually work."
     },
     {
       "id": "sb-6",
       "soft": "Ethical judgment",
       "hard": "Privacy engineering & consent",
-      "evidence": "Versioned consent, guardian safeguards for minors, de-identified research data and account purge, all built into the Inpsyght platform."
+      "evidence": "Versioned consent, guardian safeguards, de-identified research data and account purge at npsyt."
     },
     {
       "id": "sb-2",
       "soft": "Trust & judgment",
       "hard": "RBAC & data security",
-      "evidence": "Tiered access model with a restricted fence for government accounts; least-privilege DB users; SSO."
+      "evidence": "Tiered access with a restricted fence for government accounts, least-privilege roles and SSO."
     },
     {
       "id": "sb-4",
       "soft": "Teaching & enablement",
       "hard": "Documentation & release management",
-      "evidence": "User guides, GIF/video walkthroughs and release notes published alongside each release."
+      "evidence": "Guides, video walkthroughs and release notes ship with every release."
     }
   ],
   "experience": [
     {
-      "id": "inpsyght",
-      "company": "Inpsyght",
+      "id": "npsyt",
+      "company": "npsyt",
       "title": "Founder & Product Architect",
-      "location": "Independent venture",
+      "location": "npsyt.io",
       "start": "2026-03",
       "end": "Present",
-      "context": "Modern-stack product build: a behavioral-health platform connecting client self-reflection with provider care. I own the product vision, the clinical model and the full backend.",
+      "context": "Behavioral-health platform connecting client self-reflection with provider care. I own product, clinical model and engineering.",
       "bullets": [
         {
           "id": "inp-1",
-          "text": "Founded and am building a two-sided behavioral-health product. Clients use a React Native (Expo) mobile app and a React web app to capture emotions, body sensations and mindfulness practice. Providers on a subscription web portal get client summaries, emotion timelines, standardized assessments such as the PHQ-9 and intervention-efficacy tracking.",
+          "text": "Founded and built a two-sided product. Clients log emotions, body sensations and mindfulness on mobile and web; providers get summaries, timelines, PHQ-9 assessments and intervention-efficacy tracking.",
           "tags": [
             "entrepreneurship",
             "product strategy",
@@ -184,7 +187,7 @@
         },
         {
           "id": "inp-3",
-          "text": "Engineered privacy and consent from the ground up: versioned legal documents with re-consent, a consent audit history, minimum-age rules for 113 jurisdictions, guardian safeguards for minors, provider license verification and automated account purge.",
+          "text": "Engineered privacy in from day one: versioned consent with audit history, age rules for 113 jurisdictions, guardian safeguards, license verification and automated account purge.",
           "tags": [
             "privacy",
             "compliance",
@@ -198,7 +201,7 @@
         },
         {
           "id": "inp-7",
-          "text": "Built the client apps: a React 19 / Vite web app and an Expo / React Native mobile app sharing one domain layer (~16K lines). The mobile app has an offline-first capture queue that keeps each moment's original timestamp, so data captured without signal stays accurate.",
+          "text": "Built a React 19 web app and an Expo / React Native mobile app on a shared domain layer (~16K lines), with offline-first capture that keeps each entry's original timestamp.",
           "tags": [
             "React",
             "React Native",
@@ -214,7 +217,7 @@
         },
         {
           "id": "inp-2",
-          "text": "Architected the Supabase / PostgreSQL backend: ~50 tables with row-level security on every one, 120+ versioned migrations, and server-side functions powering client dashboards, emotion-vector analytics, somatic heatmaps and provider reporting.",
+          "text": "Architected the Supabase / PostgreSQL backend: ~50 tables, row-level security on every one, 120+ versioned migrations and server-side analytics for dashboards and provider reports.",
           "tags": [
             "data architecture",
             "PostgreSQL",
@@ -226,6 +229,19 @@
             "software engineering"
           ],
           "weight": 9
+        },
+        {
+          "id": "inp-6",
+          "text": "Turned clinical-psychology theory into the data model: emotion taxonomy, locus of control, agency scoring and motivation trajectories.",
+          "tags": [
+            "behavioral science",
+            "clinical",
+            "psychology",
+            "domain modeling",
+            "data architecture",
+            "healthcare"
+          ],
+          "weight": 8
         }
       ],
       "stack": [
@@ -237,20 +253,22 @@
         "Stripe",
         "Python",
         "GitHub Actions"
-      ]
+      ],
+      "url": "https://npsyt.io",
+      "brief": 3
     },
     {
       "id": "bcd",
       "company": "BCD Travel",
       "title": "Performance Solutions Manager — Learning Tools & Platform Development",
-      "location": "West Palm Beach, FL",
+      "location": "Remote",
       "start": "2019-03",
       "end": "Present",
-      "context": "Enterprise adoption: a global corporate travel management company. I lead the design and delivery of the internal operations platforms account and service teams rely on.",
+      "context": "Internal operations platforms for account and service teams at a global travel management company.",
       "bullets": [
         {
           "id": "bcd-1",
-          "text": "Led the modernization of the enterprise Account Tool. The legacy Power Apps canvas app (48 screens, ~60 SharePoint and Office 365 data sources) moved to a self-hosted ToolJet front end on AWS PostgreSQL, following a five-phase roadmap: UX, architecture, migration, security and cutover.",
+          "text": "Led the migration of the enterprise Account Tool from Power Apps / SharePoint (48 screens, ~60 data sources) to ToolJet on AWS PostgreSQL, run as a five-phase program from UX through cutover.",
           "tags": [
             "digital transformation",
             "platform migration",
@@ -266,7 +284,7 @@
         },
         {
           "id": "bcd-2",
-          "text": "Designed the data model and multi-tenant access control: tiered Global, Regional, Country and Scoped access across a GCN → SMID → LCN account hierarchy, a restricted-access fence for government accounts, least-privilege database roles, TLS and SSO/OAuth2 user provisioning.",
+          "text": "Designed the data model and access control: four access tiers across a three-level account hierarchy, a restricted fence for government accounts, least-privilege roles and SSO.",
           "tags": [
             "data architecture",
             "RBAC",
@@ -281,7 +299,7 @@
         },
         {
           "id": "bcd-4",
-          "text": "Architected a SharePoint → object storage (S3/R2) → PostgreSQL knowledge pipeline. It uses Microsoft Graph delta change detection, converts Office documents to PDF, Markdown and AI-enriched JSON, prevents overlapping runs with lock files and reconciles its own inventory.",
+          "text": "Built a SharePoint → S3/R2 → PostgreSQL document pipeline: Graph delta sync, Office-to-PDF/Markdown/JSON conversion, AI-enriched metadata and self-reconciling inventory.",
           "tags": [
             "data pipeline",
             "ETL",
@@ -296,7 +314,7 @@
         },
         {
           "id": "bcd-6",
-          "text": "Drove adoption through performance-support content: user guides, GIF/video walkthroughs and release notes published to GitHub-hosted wikis and embedded in-app viewers.",
+          "text": "Drove adoption with user guides, video walkthroughs and release notes for every release.",
           "tags": [
             "training",
             "change management",
@@ -309,7 +327,7 @@
         },
         {
           "id": "bcd-7",
-          "text": "Serve as the bridge between operations leadership and engineering. I translate business rules (payment, policy, approvals, vendor programs) into specifications, runbooks and stakeholder-ready design documents.",
+          "text": "Translate operations rules (payments, policy, approvals, vendors) into specifications and runbooks that engineering builds from.",
           "tags": [
             "stakeholder management",
             "requirements",
@@ -321,7 +339,7 @@
         },
         {
           "id": "bcd-5",
-          "text": "Defined release governance: migration-based schema control with CI/CD to staging, staging → dev → prod data-promotion scripts with duplicate detection and preload validation, and an hour-by-hour go-live plan with named owners, success criteria and rollback.",
+          "text": "Set release governance: versioned schema migrations, validated staging-to-production data promotion and an hour-by-hour go-live plan with rollback.",
           "tags": [
             "release management",
             "CI/CD",
@@ -343,7 +361,8 @@
         "Microsoft Graph",
         "PowerShell",
         "AWS"
-      ]
+      ],
+      "brief": 3
     },
     {
       "id": "medtronic",
@@ -355,7 +374,7 @@
       "bullets": [
         {
           "id": "med-1",
-          "text": "Managed a $3.2M territory, providing surgical case coverage and patient device programming for neuromodulation and intrathecal drug-delivery therapies.",
+          "text": "Managed a $3.2M neuromodulation territory: surgical case coverage, patient device programming and hospital support.",
           "tags": [
             "sales",
             "healthcare",
@@ -367,7 +386,7 @@
         },
         {
           "id": "med-2",
-          "text": "Ran regional and national physician training, resident education and speaker programs. Integrated practice-management tools for client practices.",
+          "text": "Ran regional and national physician and resident training programs.",
           "tags": [
             "training",
             "healthcare",
@@ -376,7 +395,8 @@
           ],
           "weight": 5
         }
-      ]
+      ],
+      "brief": 1
     },
     {
       "id": "fels",
@@ -388,7 +408,7 @@
       "bullets": [
         {
           "id": "fels-1",
-          "text": "Directed learning management system (LMS) content delivery, virtual learning environments and the governance standards that applied across corporate agencies.",
+          "text": "Directed LMS content delivery, virtual learning environments and governance standards across corporate agencies.",
           "tags": [
             "operations leadership",
             "LMS",
@@ -399,7 +419,7 @@
         },
         {
           "id": "fels-2",
-          "text": "Led data integration across company platforms, writing use cases and process maps for development and engineering teams.",
+          "text": "Led cross-platform data integration; wrote the use cases and process maps engineering built from.",
           "tags": [
             "data integration",
             "process mapping",
@@ -410,7 +430,7 @@
         },
         {
           "id": "fels-3",
-          "text": "Built KPI and trend dashboards for senior-leadership monitoring and reporting.",
+          "text": "Built KPI dashboards for senior-leadership reporting.",
           "tags": [
             "dashboards",
             "KPIs",
@@ -419,7 +439,8 @@
           ],
           "weight": 6
         }
-      ]
+      ],
+      "brief": 1
     },
     {
       "id": "sureid",
@@ -431,7 +452,7 @@
       "bullets": [
         {
           "id": "sureid-1",
-          "text": "Managed physical and logical access-control programs across multiple Department of Defense facilities, covering security operations and compliance training.",
+          "text": "Ran physical and logical access-control programs at multiple DoD installations, including security operations and compliance training.",
           "tags": [
             "program management",
             "security",
@@ -444,7 +465,7 @@
         },
         {
           "id": "sureid-2",
-          "text": "Advised senior stakeholders on access-control technology and programs of record. Built analytics that combined physical-security and ingress data to surface site-level trends.",
+          "text": "Advised senior stakeholders on access-control technology; built analytics combining security and entry data to surface site trends.",
           "tags": [
             "executive advisory",
             "analytics",
@@ -455,7 +476,7 @@
         },
         {
           "id": "sureid-3",
-          "text": "Negotiated and executed contracts and renewals with DoD agencies, and represented the program to tenant sponsor communities.",
+          "text": "Negotiated DoD contracts and renewals.",
           "tags": [
             "contract negotiation",
             "business development",
@@ -464,7 +485,8 @@
           ],
           "weight": 6
         }
-      ]
+      ],
+      "brief": 1
     },
     {
       "id": "tier1",
@@ -476,7 +498,7 @@
       "bullets": [
         {
           "id": "tier1-1",
-          "text": "Led implementation, training and evaluation for virtual tracking and monitoring systems, UAV systems and human-systems evaluation. Wrote SOPs and safety controls for trainers and role players.",
+          "text": "Led implementation, training and evaluation of tracking, monitoring and UAV systems; wrote the SOPs and safety controls.",
           "tags": [
             "technology implementation",
             "training",
@@ -486,7 +508,8 @@
           ],
           "weight": 6
         }
-      ]
+      ],
+      "brief": 0
     },
     {
       "id": "wpg",
@@ -498,7 +521,7 @@
       "bullets": [
         {
           "id": "wpg-1",
-          "text": "Founded and ran a training business offering threat-avoidance curriculum and scenario-based law-enforcement training. Built competency frameworks to evaluate individual performance.",
+          "text": "Founded and ran a scenario-based training business for civilians and law enforcement, with competency frameworks to measure performance.",
           "tags": [
             "entrepreneurship",
             "P&L",
@@ -508,13 +531,14 @@
           ],
           "weight": 5
         }
-      ]
+      ],
+      "brief": 0
     }
   ],
   "earlier_career": [
     {
       "id": "early-sfa",
-      "text": "Surgical First Assistant (travel and staff), 1998–2005: trauma, neuro, orthopedic and cardiac specialties nationwide.",
+      "text": "Surgical First Assistant, 1998–2005: trauma, neuro, orthopedic and cardiac cases nationwide.",
       "tags": [
         "healthcare",
         "clinical",
@@ -523,7 +547,7 @@
     },
     {
       "id": "early-navy",
-      "text": "U.S. Navy Hospital Corpsman, FMF, 1st Marine Division, 1991–1997 (Honorable Discharge). Combat casualty care training and medical readiness for rapid-deployment units.",
+      "text": "U.S. Navy Hospital Corpsman (FMF), 1st Marine Division, 1991–1997. Honorable discharge.",
       "tags": [
         "military",
         "veteran",
@@ -596,7 +620,32 @@
     "Number of documents processed by the knowledge pipeline",
     "Team size led or coordinated at BCD and Fels",
     "Number of DoD facilities managed at SureID",
-    "Inpsyght status: beta / pilot providers / launch date",
-    "Inpsyght front-end stack (web and mobile)"
+    "npsyt status: beta / pilot providers / launch date"
+  ],
+  "career_arc": [
+    {
+      "era": "Clinical",
+      "start": 1991,
+      "end": 2011,
+      "text": "Navy FMF corpsman, surgical first assistant, Medtronic clinical specialist"
+    },
+    {
+      "era": "Security & training",
+      "start": 2011,
+      "end": 2017,
+      "text": "Founded a training business; ran DoD access-control programs"
+    },
+    {
+      "era": "Enterprise technology",
+      "start": 2017,
+      "end": 2026,
+      "text": "LMS operations director; enterprise platforms at BCD Travel"
+    },
+    {
+      "era": "Founder",
+      "start": 2026,
+      "end": 2027,
+      "text": "npsyt"
+    }
   ]
 }

@@ -4,70 +4,75 @@ Paste each block into the matching LinkedIn field. Character limits are noted.
 
 ---
 
+## Location
+
+Golden, Colorado, United States
+
 ## Headline (max 220)
 
-Technology & Operations Leader | Enterprise Platform Adoption at BCD Travel | Founder, Inpsyght (Behavioral-Health SaaS) | Data Architecture & Privacy | U.S. Navy Veteran
+Technology Leader | Enterprise Platform Adoption at BCD Travel | Founder, npsyt (Behavioral-Health Platform) | Data Architecture & Privacy | U.S. Navy Veteran
 
 ## About (max 2,600)
 
-I build systems people actually use, and I lead the change that gets them used.
+I build systems people adopt, and I lead the change that gets them adopted.
 
-My career started in high-consequence settings: as a Navy FMF corpsman with the 1st Marine Division, then as a surgical first assistant and a Medtronic clinical specialist. Over time I moved into the systems behind the work, including DoD access-control programs, learning-management operations, and for the past seven years enterprise internal platforms at BCD Travel.
+I started in high-consequence work: Navy FMF corpsman with the 1st Marine Division, surgical first assistant, then Medtronic clinical specialist. From there I moved into the systems behind the work: DoD access-control programs, learning-management operations, and since 2019 enterprise platforms at BCD Travel.
 
-My current work shows two sides of the same capability. At BCD Travel, I drive adoption across a global enterprise. At Inpsyght, the behavioral-health platform I founded, I build end to end on a modern cloud stack.
+My current work shows two sides of one capability.
 
-Enterprise adoption (BCD Travel):
-• Modernize legacy platforms. I led the move of a 48-screen Power Apps / SharePoint account tool to a self-hosted ToolJet front end on AWS PostgreSQL, with a phased roadmap, cutover runbook and rollback plan.
-• Design secure data architecture. Multi-tenant role-based access (global, regional, country, scoped), least-privilege database roles, SSO and restricted-access controls for government accounts.
-• Engineer the hands-on pieces. Custom React components, SharePoint-to-S3/R2-to-PostgreSQL document pipelines with Microsoft Graph delta sync and AI-enriched metadata, and staging-to-production data promotion.
-• Drive adoption. Guides, video training and release notes ship with every release, because a platform nobody uses has failed.
+Enterprise adoption (BCD Travel)
+• Migrated a 48-screen Power Apps / SharePoint tool to ToolJet on AWS PostgreSQL, run as a five-phase program with a rollback-ready cutover.
+• Designed tiered access control across a three-level account hierarchy, with a restricted fence for government accounts.
+• Built the React components, document pipelines and release governance behind it.
+• Shipped guides, video walkthroughs and release notes with every release. A platform nobody uses has failed.
 
-Modern-stack product build (Inpsyght):
-• A two-sided platform connecting client self-reflection with provider care, on Supabase/PostgreSQL with row-level security on every table, serverless TypeScript and Stripe billing.
-• Privacy and consent engineered in from day one: versioned consent, jurisdiction-aware age rules, de-identified research data and automated account purge.
-• A clinical model of emotion, motivation and body awareness, built from my training in psychology.
+Modern platform build (npsyt, npsyt.io)
+• Founded and built a behavioral-health platform end to end: React Native mobile app, React web app and provider portal on Supabase.
+• Engineered privacy in from day one: row-level security on every table, versioned consent, de-identified research data and automated account purge.
+• Turned clinical-psychology theory into the product's data model.
 
-My graduate work in clinical psychology shapes how I design for behavior, communicate with executives and bring skeptical teams along.
+My training in clinical psychology shapes how I design for behavior, communicate with executives and bring skeptical teams along.
 
-I'm interested in leadership roles where technology, operations and people meet: enterprise applications, internal tools, digital transformation and healthcare or behavioral-health technology.
+I'm interested in leadership roles where technology, operations and people meet: enterprise applications, internal tools, digital transformation and health technology.
 
 Full resume: https://hibbardjoel.github.io
 
-## Experience: BCD Travel (keep your official title; add the description)
+## Experience: BCD Travel (keep your official title)
 
 **Title:** Performance Solutions Manager – Learning Tools
-(If HR allows a descriptor: "Performance Solutions Manager – Learning Tools & Platform Development")
+**Location:** Remote
 
 **Description:**
-I lead the design and delivery of internal operations platforms for account and service teams at a global travel management company.
-• Led the modernization of the enterprise Account Tool from Power Apps / SharePoint (48 screens, ~60 data sources) to ToolJet on AWS PostgreSQL.
-• Designed the multi-tenant data model and tiered role-based access across the GCN → SMID → LCN account hierarchy.
-• Built 11 custom React components (~10K lines) for policy, payment, traveler and supplier workflows.
-• Architected a SharePoint → S3/R2 → PostgreSQL knowledge pipeline with Graph delta change detection and AI-enriched JSON.
-• Defined release governance: schema migrations, CI/CD, data-promotion validation and an hour-by-hour go-live plan.
-• Produced user guides, video walkthroughs and release notes to drive adoption.
+Internal operations platforms for account and service teams at a global travel management company.
+• Led the migration of the enterprise Account Tool from Power Apps / SharePoint (48 screens, ~60 data sources) to ToolJet on AWS PostgreSQL.
+• Designed the data model and four-tier access control, including a restricted fence for government accounts.
+• Built 11 custom React components (~10K lines) that replaced the Power Apps logic.
+• Built a SharePoint → S3/R2 → PostgreSQL document pipeline with Graph delta sync and AI-enriched metadata.
+• Set release governance: versioned migrations, validated data promotion and an hour-by-hour go-live plan.
+• Drove adoption with guides, video walkthroughs and release notes.
 
 **Skills to attach:** PostgreSQL · React.js · Data Architecture · Role-Based Access Control · Digital Transformation · Change Management
 
-## New experience entry: Inpsyght
+## Experience: npsyt (new entry)
 
 **Title:** Founder & Product Architect
-**Company:** Inpsyght (self-employed)
+**Company:** npsyt (self-employed)
 **Dates:** Mar 2026 – Present
+**Link (add as media):** https://npsyt.io
 
 **Description:**
-A behavioral-health platform that connects client self-reflection with provider care.
-• Built a two-sided product. Clients capture emotions, body sensations and mindfulness practice. Providers get summaries, emotion timelines, standardized assessments and intervention-efficacy tracking.
-• Architected the Supabase/PostgreSQL backend: ~50 tables with row-level security on every one and 120+ versioned migrations.
-• Engineered privacy from the ground up: versioned consent, minimum-age rules for 113 jurisdictions, guardian safeguards, de-identified research data and automated account purge.
-• Shipped Stripe subscription billing on TypeScript edge functions.
+Behavioral-health platform connecting client self-reflection with provider care. I own product, clinical model and engineering.
+• Founded and built a two-sided product: clients log emotions, body sensations and mindfulness; providers get summaries, timelines, PHQ-9 assessments and intervention-efficacy tracking.
+• Built a React 19 web app and an Expo / React Native mobile app with offline-first capture.
+• Architected the Supabase / PostgreSQL backend: ~50 tables, row-level security on every one, 120+ versioned migrations.
+• Engineered privacy in from day one: versioned consent, age rules for 113 jurisdictions, de-identified research data and automated account purge.
+• Shipped Stripe subscription billing and GitHub Actions CI/CD.
 
-**Skills to attach:** Product Strategy · Supabase · Data Privacy · Behavioral Health · TypeScript
-
+**Skills to attach:** Product Strategy · React Native · Supabase · Data Privacy · Behavioral Health
 
 ## Other experience entries
 
-Copy the bullets from the resume site. They have been tightened and should replace the current text for Fels & Associates, SureID and Medtronic. The two entries below change more than wording:
+Replace the current text for Fels & Associates, SureID and Medtronic with the bullets on the resume site. Two entries change more than wording:
 - **Wilmington Proving Ground:** change the title to "Founder & Program Director".
 - **Contract and Permanent Positions:** rename to "Surgical First Assistant (Travel & Staff)".
 
@@ -75,14 +80,15 @@ Copy the bullets from the resume site. They have been tightened and should repla
 
 1. Digital Transformation
 2. Data Architecture
-3. Program Management
+3. Product Development
 
-Then add or keep: PostgreSQL, React.js, Microsoft SharePoint, Power Apps, Low-Code Development, Role-Based Access Control, ETL, Change Management, Instructional Design, Stakeholder Management, Executive Advisory, Leadership.
+Then add or keep: PostgreSQL, React.js, React Native, Supabase, Microsoft SharePoint, Power Apps, Role-Based Access Control, Data Privacy, ETL, Change Management, Instructional Design, Stakeholder Management, Leadership.
 
 ## Education
 
-Keep both degrees listed, but remove the date ranges. LinkedIn allows blank dates, and leaving them out keeps the section low-key.
+Keep both degrees, but remove the date ranges. LinkedIn allows blank dates, which keeps the section low-key.
 
 ## Featured section
 
-Add the GitHub Pages resume link and the Inpsyght site or a short product demo (screenshots or a 60-second walkthrough of the client and provider views). Optionally add the public `account_tool_user_guides` wiki as a sample of your documentation and training work, after confirming BCD is fine with it being public.
+1. Resume site: https://hibbardjoel.github.io
+2. npsyt: https://npsyt.io, ideally with 2–3 screenshots or a 60-second walkthrough of the client and provider views.
