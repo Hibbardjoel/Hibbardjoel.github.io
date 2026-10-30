@@ -45,7 +45,7 @@
     {
       "id": "vp-modern",
       "title": "Modern platform build",
-      "text": "Founded and built a two-sided behavioral-health platform end to end, with row-level security on every table and consent, de-identification and billing engineered in from day one.",
+      "text": "Founded and built a two-sided behavioral-health platform end to end: a mobile app, a web app and a provider portal on Supabase, with row-level security on every table and consent, de-identification and billing engineered in from day one.",
       "tags": [
         "product management",
         "Supabase",
@@ -60,12 +60,12 @@
       "period": "2026 – present",
       "accent": "modern",
       "stack": [
+        "React",
+        "React Native",
         "Supabase",
         "TypeScript",
-        "Deno",
         "Stripe",
-        "pg_cron",
-        "RLS"
+        "Python"
       ]
     },
     {
@@ -96,8 +96,10 @@
       "Data architecture & PostgreSQL (AWS, Supabase)",
       "Role-based access control / multi-tenant security",
       "Privacy engineering: consent, de-identification, retention",
+      "Mobile & web apps: React Native (Expo), React 19, Vite",
       "React (JSX) custom components",
       "TypeScript / Deno serverless functions, Stripe billing",
+      "Research analytics in Python: mixed-effects models",
       "Low-code platforms: ToolJet, Power Apps",
       "SharePoint, Microsoft Graph API, Office 365",
       "ETL & document pipelines (PowerShell, S3/R2)",
@@ -285,7 +287,7 @@
       "bullets": [
         {
           "id": "inp-1",
-          "text": "Founded and am building a two-sided behavioral-health product. Clients capture emotions, body sensations and mindfulness practice. Providers on a subscription portal get client summaries, emotion timelines, standardized assessments such as the PHQ-9 and intervention-efficacy tracking.",
+          "text": "Founded and am building a two-sided behavioral-health product. Clients use a React Native (Expo) mobile app and a React web app to capture emotions, body sensations and mindfulness practice. Providers on a subscription web portal get client summaries, emotion timelines, standardized assessments such as the PHQ-9 and intervention-efficacy tracking.",
           "tags": [
             "entrepreneurship",
             "product strategy",
@@ -294,9 +296,29 @@
             "behavioral health",
             "SaaS",
             "product management",
-            "leadership"
+            "leadership",
+            "React",
+            "React Native",
+            "mobile",
+            "web"
           ],
           "weight": 10
+        },
+        {
+          "id": "inp-7",
+          "text": "Built the client apps: a React 19 / Vite web app and an Expo / React Native mobile app sharing one domain layer (~16K lines). The mobile app has an offline-first capture queue that keeps each moment's original timestamp, so data captured without signal stays accurate.",
+          "tags": [
+            "React",
+            "React Native",
+            "Expo",
+            "JavaScript",
+            "mobile",
+            "front-end",
+            "offline-first",
+            "software engineering",
+            "UX"
+          ],
+          "weight": 9
         },
         {
           "id": "inp-2",
@@ -329,14 +351,30 @@
         },
         {
           "id": "inp-4",
-          "text": "Built a de-identified research pipeline. Records are pseudonymized and the identity link is destroyed on account purge. It also has opt-in gating, a read-only research role and aggregate extracts with small-cell suppression.",
+          "text": "Built a de-identified research pipeline. Records are pseudonymized and the identity link is destroyed on account purge, with opt-in gating, a read-only research role and small-cell suppression. A separate Python environment runs mixed-effects models (pandas, statsmodels), and only aggregates leave it.",
           "tags": [
             "data pipeline",
             "research",
             "privacy",
             "data governance",
             "analytics",
-            "ETL"
+            "ETL",
+            "Python",
+            "statistics",
+            "data science"
+          ],
+          "weight": 8
+        },
+        {
+          "id": "inp-6",
+          "text": "Translated clinical-psychology theory into the product's data model: emotion taxonomy with valence and dyads, locus of control, response-intention and agency scoring, and motivation trajectories. I also built a structured diagnostic-reference knowledge base for clinical context.",
+          "tags": [
+            "behavioral science",
+            "clinical",
+            "psychology",
+            "domain modeling",
+            "data architecture",
+            "healthcare"
           ],
           "weight": 8
         },
@@ -355,27 +393,27 @@
           "weight": 7
         },
         {
-          "id": "inp-6",
-          "text": "Translated clinical-psychology theory into the product's data model: emotion taxonomy with valence and dyads, locus of control, response-intention and agency scoring, and motivation trajectories. I also built a structured diagnostic-reference knowledge base for clinical context.",
+          "id": "inp-8",
+          "text": "Set up CI/CD on GitHub Actions with lint and preflight checks that catch runtime failures before deploy, plus queued deployments to prevent overlapping releases.",
           "tags": [
-            "behavioral science",
-            "clinical",
-            "psychology",
-            "domain modeling",
-            "data architecture",
-            "healthcare"
+            "CI/CD",
+            "GitHub Actions",
+            "DevOps",
+            "release management",
+            "quality"
           ],
-          "weight": 8
+          "weight": 6
         }
       ],
       "stack": [
+        "React 19",
+        "React Native / Expo",
         "Supabase",
         "PostgreSQL",
         "TypeScript",
-        "Deno",
         "Stripe",
-        "pg_cron",
-        "Row-level security"
+        "Python",
+        "GitHub Actions"
       ]
     },
     {
@@ -585,11 +623,12 @@
       "Schema migrations"
     ],
     "Application": [
-      "ToolJet",
-      "React / JSX",
+      "React 19 / JSX",
+      "React Native (Expo)",
+      "Vite",
       "JavaScript / TypeScript",
-      "Power Apps (Power Fx)",
-      "HTML/CSS"
+      "ToolJet",
+      "Power Apps (Power Fx)"
     ],
     "Integration": [
       "Microsoft Graph",
@@ -609,6 +648,7 @@
       "Runbooks & cutover plans"
     ],
     "Insight": [
+      "Python (pandas, statsmodels)",
       "KPI dashboards",
       "LMS platforms",
       "AI-enriched metadata"
@@ -637,7 +677,6 @@
     "Number of documents processed by the knowledge pipeline",
     "Team size led or coordinated at BCD and Fels",
     "Number of DoD facilities managed at SureID",
-    "Inpsyght status: beta / pilot providers / launch date",
-    "Inpsyght front-end stack (web and mobile)"
+    "Inpsyght status: beta / pilot providers / launch date"
   ]
 }

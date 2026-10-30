@@ -41,6 +41,8 @@ SYNONYMS = {
     "Stripe": ["stripe", "billing", "payments", "subscription"],
     "product management": ["product", "roadmap", "0 to 1", "zero-to-one", "founder", "startup"],
     "research": ["research", "outcomes", "evidence-based"],
+    "React Native": ["react native", "expo", "mobile", "ios", "android"],
+    "Python": ["python", "pandas", "statistics", "data science"],
     "P&L": ["budget", "p&l", "financial ownership", "cost center"],
     "people management": ["people management", "direct reports", "team of", "manage a team", "hiring"],
     "HIPAA": ["hipaa", "phi", "protected health"],
